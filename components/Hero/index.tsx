@@ -17,8 +17,10 @@ const HeroSection = () => {
               nutritional needs.
             </p>
 
-            <Link href='/'>Start eating well</Link>
-            <Link href='/'>Learn more</Link>
+            <div className='links'>
+              <Link href='/'>Start eating well</Link>
+              <Link href='/'>Learn more</Link>
+            </div>
           </Left>
           <Right>
             {/* <Image
@@ -29,7 +31,7 @@ const HeroSection = () => {
             /> */}
             <img
               className='hero-img'
-              src='/img Demo/hero.png'
+              src='/Images/Hero3.png'
               alt='eating a meal'
             />
           </Right>

@@ -1,8 +1,8 @@
 import { css } from 'styled-components';
 
 export const Description = css`
-  font-size: ${p => p.theme.fontSizes.fs20};
-  font-family: 'Eux-Medium';
-  line-height: 1.2;
-  color: ${p => p.theme.colors.n3};
+  font-size: ${p => p.theme.fontSizes.fs16};
+  font-family: 'E-L';
+  line-height: 1.4;
+  color: ${p => p.theme.colors.n4};
 `;

@@ -2,7 +2,7 @@ import { createGlobalStyle, css } from 'styled-components';
 
 const GlobaleStyle = createGlobalStyle`${css`
   @font-face {
-    font-family: 'Eux-Light';
+    font-family: 'E-L';
     src: url('/fonts/EudoxusSans-Light.woff') format('woff');
     font-style: normal;
     font-weight: lighter;
@@ -11,7 +11,7 @@ const GlobaleStyle = createGlobalStyle`${css`
   }
 
   @font-face {
-    font-family: 'Eux-Medium';
+    font-family: 'E-M';
     src: url('/fonts/EudoxusSans-Medium.woff') format('woff');
     font-style: normal;
     font-weight: normal;
@@ -20,7 +20,7 @@ const GlobaleStyle = createGlobalStyle`${css`
   }
 
   @font-face {
-    font-family: 'Eux-Bold';
+    font-family: 'E-B';
     src: url('/fonts/EudoxusSans-Bold.woff') format('woff');
     font-style: normal;
     font-weight: bold;
