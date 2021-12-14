@@ -5,7 +5,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "gIcons": "fantasticon assets/icons/Icons-o -o assets/icons/Icons-g -t woff woff2 ttf -g css html ts"
   },
   "dependencies": {
     "next": "12.0.7",

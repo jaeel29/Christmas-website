@@ -28,6 +28,11 @@ const GlobaleStyle = createGlobalStyle`${css`
     /* <- this can be added to each @font-face definition */
   }
 
+  @font-face {
+    font-family: 'icons';
+    src: url('/assets/Icons/Icons-g/icons.ttf') format('truetype');
+  }
+
   * {
     margin: 0;
     padding: 0;

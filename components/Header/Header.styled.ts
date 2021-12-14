@@ -3,9 +3,9 @@ import { Container } from '../../styles/blocks/Container';
 
 export const SHeader = styled.header`
   height: 8rem;
-  background-color: ${p => p.theme.colors.p4Light};
+  background-color: ${p => p.theme.colors.primaryLight};
   padding: 2.4rem 0;
-  border-bottom: 3px solid ${p => p.theme.colors.p4Light2};
+  border-bottom: 3px solid ${p => p.theme.colors.primaryLight2};
 `;
 
 export const SHeaderContainer = styled.div`

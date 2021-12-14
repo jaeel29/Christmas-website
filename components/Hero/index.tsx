@@ -1,7 +1,8 @@
-import Image from 'next/image';
 import Link from 'next/link';
+import { Icons } from '../../assets/Icons/Icons-g/icons';
+import IconComp from '../IconComponent';
 import PageLayout from '../PageLayout';
-import { Hero, Left, Right, SectionHero } from './Hero.styled';
+import { Hero, Left, Links, Right, SButton, SectionHero } from './Hero.styled';
 
 const HeroSection = () => {
   return (
@@ -17,18 +18,30 @@ const HeroSection = () => {
               nutritional needs.
             </p>
 
-            <div className='links'>
-              <Link href='/'>Start eating well</Link>
-              <Link href='/'>Learn more</Link>
-            </div>
+            <Links>
+              <Link href='/' passHref>
+                <SButton>
+                  <h4>Explore</h4>
+                </SButton>
+              </Link>
+
+              <Link href='/' passHref>
+                <SButton light>
+                  <h4>Learn more</h4>
+                  {/* Explore how the button work:
+                   <SIcon  className='icon-arrow-down'></SIcon> 
+                  */}
+
+                  <IconComp
+                    name={Icons.ArrowDown}
+                    sizeIcon={36}
+                    color='primaryDark2'
+                  ></IconComp>
+                </SButton>
+              </Link>
+            </Links>
           </Left>
           <Right>
-            {/* <Image
-              src='/img Demo/eating.jpg'
-              alt='hero photo'
-              width={800}
-              height={1000}
-            /> */}
             <img
               className='hero-img'
               src='/Images/Hero3.png'

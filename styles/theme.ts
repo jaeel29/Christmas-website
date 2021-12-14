@@ -60,16 +60,11 @@ Medium: 11px
 export const theme = {
   // colors
   colors: {
-    p1: '#3B71FE',
-    p2: '#8BC5E5',
-    p3: '#92A5EF',
-    p4: '#58C27D',
-    p4Light: '#ecf7e6',
-    p4Light2: '#c5e7b4',
-    s1: '#A4CDE3',
-    s2: '#E4D7CF',
-    s3: '#FFD166',
-    s4: '#FA8F54',
+    primary: '#58C27D',
+    primaryDark: '#4faf71',
+    primaryDark2: '#35744b',
+    primaryLight: '#ecf7e6',
+    primaryLight2: '#c5e7b4',
     white: '#ffffff',
     black: '#000000',
 
