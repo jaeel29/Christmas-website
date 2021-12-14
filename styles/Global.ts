@@ -45,10 +45,10 @@ const GlobaleStyle = createGlobalStyle`${css`
   }
 
   body {
-    font-family: 'Eux-Bold';
+    font-family: 'Eux-Bold', sans-serif;
     min-width: 375px;
     font-weight: 400;
-    line-height: 1.6;
+    line-height: 1;
   }
 `}`;
 
