@@ -4,12 +4,13 @@ export const Button = css<{ light?: boolean }>`
   padding: 1.5rem 2.5rem;
   /* margin: 0 1.5rem 0 0; */
   display: inline-block;
-  font-size: 2rem;
+  font-family: 'E-M';
+  font-size: 1.8rem;
   text-decoration: none;
   border-radius: 8px;
-  max-width: 22rem;
-  height: 56px;
-  transition: background-color 0.3s ease-out;
+  /* max-width: 22rem; */
+  height: 50px;
+  transition: background-color 0.2s ease-out;
 
   ${p =>
     p.light

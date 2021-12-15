@@ -13,26 +13,23 @@ export const SectionHero = styled.section`
 export const Hero = styled.div`
   ${Container}
   max-width: 1440px;
-  /* display: flex; */
+  height: 50rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1.7fr repeat(2, minmax(min-content, 1fr));
+  justify-content: space-between;
   align-items: center;
   column-gap: 24px;
 `;
 
 export const Left = styled.div`
   /* ${BorderDebugging} */
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 
   h1 {
     ${Title}
     margin-bottom: ${p => p.theme.spacing.s32};
   }
 
-  p {
+  & > p {
     ${Description}
     margin-bottom: ${p => p.theme.spacing.s32};
   }
@@ -40,14 +37,12 @@ export const Left = styled.div`
 
 export const Links = styled.div`
   display: flex;
-  /* align-items: center; */
-  ${BorderDebugging}
+  align-items: center;
 `;
 
 export const SButton = styled.a`
   &:link,
   &:visited {
-    /* ${BorderDebugging} */
     ${Button}
     display: flex;
     align-items: center;
@@ -56,6 +51,7 @@ export const SButton = styled.a`
 
     h4 {
       margin-right: 1rem;
+      font-family: inherit;
     }
 
     &:not(:first-child) {
@@ -64,21 +60,68 @@ export const SButton = styled.a`
   }
 `;
 
+export const Avatars = styled.div`
+  /* ${BorderDebugging} */
+  margin-top: ${p => p.theme.spacing.s32};
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+
+  .imgs {
+    /* ${BorderDebugging} */
+    display: flex;
+
+    img {
+      width: 5rem;
+      height: 5rem;
+      margin-right: -1.5rem;
+    }
+
+    img:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .paragraphAvatars {
+    ${Description}
+  }
+`;
+
 export const Right = styled.div`
   /* ${BorderDebugging} */
   position: relative;
-  /* max-width: 600px; */
-  width: 100%;
-  height: 40rem;
+  grid-column: 2 / -1;
+  grid-row: 1 / 2;
+  z-index: 1;
 
   .hero-img {
     position: absolute;
     top: 50%;
-    right: 40%;
+    right: 50%;
     transform: translate(50%, -50%);
     width: 100%;
     border-radius: 10px;
     /* border: 3px solid blue; */
+  }
+`;
+
+export const Third = styled.div`
+  /* ${BorderDebugging} */
+  height: 100%;
+  grid-column: 2/-1;
+  grid-row: 1/2;
+  position: relative;
+  /* justify-self: center; */
+
+  div {
+    position: absolute;
+    top: -5%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 50rem;
+    width: 50rem;
+    border-radius: 50%;
+    background-color: ${p => p.theme.colors.primaryLight};
   }
 `;
 

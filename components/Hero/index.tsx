@@ -2,7 +2,16 @@ import Link from 'next/link';
 import { Icons } from '../../assets/Icons/Icons-g/icons';
 import IconComp from '../IconComponent';
 import PageLayout from '../PageLayout';
-import { Hero, Left, Links, Right, SButton, SectionHero } from './Hero.styled';
+import {
+  Avatars,
+  Hero,
+  Left,
+  Links,
+  Right,
+  SButton,
+  SectionHero,
+  Third,
+} from './Hero.styled';
 
 const HeroSection = () => {
   return (
@@ -20,9 +29,7 @@ const HeroSection = () => {
 
             <Links>
               <Link href='/' passHref>
-                <SButton>
-                  <h4>Explore</h4>
-                </SButton>
+                <SButton>Explore</SButton>
               </Link>
 
               <Link href='/' passHref>
@@ -37,6 +44,21 @@ const HeroSection = () => {
                 </SButton>
               </Link>
             </Links>
+
+            <Avatars>
+              <div className='imgs'>
+                <img src='/Images/Avatars/avatar-1.png' alt='avatar 1' />
+                <img src='/Images/Avatars/avatar-2.png' alt='avatar 2' />
+                <img src='/Images/Avatars/avatar-3.png' alt='avatar 3' />
+                <img src='/Images/Avatars/avatar-4.png' alt='avatar 4' />
+                <img src='/Images/Avatars/avatar-5.png' alt='avatar 5' />
+                <img src='/Images/Avatars/avatar-6.png' alt='avatar 6' />
+              </div>
+
+              <p className='paragraphAvatars'>
+                Tailored to your personal tastes and nutritional needs.
+              </p>
+            </Avatars>
           </Left>
           <Right>
             <img
@@ -45,6 +67,9 @@ const HeroSection = () => {
               alt='eating a meal'
             />
           </Right>
+          <Third>
+            <div></div>
+          </Third>
         </Hero>
       </SectionHero>
     </PageLayout>
