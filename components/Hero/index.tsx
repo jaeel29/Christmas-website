@@ -28,14 +28,11 @@ const HeroSection = () => {
               <Link href='/' passHref>
                 <SButton light>
                   <h4>Learn more</h4>
-                  {/* Explore how the button work:
-                   <SIcon  className='icon-arrow-down'></SIcon> 
-                  */}
 
                   <IconComp
                     name={Icons.ArrowDown}
                     sizeIcon={36}
-                    color='primaryDark2'
+                    color='red'
                   ></IconComp>
                 </SButton>
               </Link>

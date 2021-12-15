@@ -8,11 +8,14 @@ export const Button = css<{ light?: boolean }>`
   text-decoration: none;
   border-radius: 8px;
   max-width: 22rem;
+  height: 56px;
+  transition: background-color 0.3s ease-out;
 
   ${p =>
     p.light
       ? css`
-          border: 2px solid ${p => p.theme.colors.primaryLight2};
+          /* border: 2px solid ${p => p.theme.colors.primaryLight2}; */
+          box-shadow: inset 0 0 0 2.5px ${p => p.theme.colors.primaryLight2};
           color: ${p => p.theme.colors.primaryDark2};
           background-color: transparent;
 

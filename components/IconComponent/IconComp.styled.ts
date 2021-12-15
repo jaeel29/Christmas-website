@@ -9,6 +9,6 @@ export const SIcon = styled.i<{ size: number; color: string }>`
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: ${p => (p.color ? p.theme.colors[p.color] : 'white')};
+  color: ${p => (p.color ? p.theme.colors[p.color] : 'inherit')};
   font-size: ${({ size }) => size || 14}px;
 `;

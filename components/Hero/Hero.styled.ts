@@ -40,7 +40,8 @@ export const Left = styled.div`
 
 export const Links = styled.div`
   display: flex;
-  align-items: center;
+  /* align-items: center; */
+  ${BorderDebugging}
 `;
 
 export const SButton = styled.a`
@@ -48,7 +49,6 @@ export const SButton = styled.a`
   &:visited {
     /* ${BorderDebugging} */
     ${Button}
-    height: 56px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -59,7 +59,7 @@ export const SButton = styled.a`
     }
 
     &:not(:first-child) {
-      margin: 0;
+      margin-right: 0;
     }
   }
 `;

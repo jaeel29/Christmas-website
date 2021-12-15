@@ -10,7 +10,7 @@ const IconComp: FC<{ name?: string; sizeIcon?: number; color?: string }> = ({
 
   return (
     <>
-      <SIcon className={`icon-${name}`} size={sizeIcon} color={color}></SIcon>
+      <SIcon className={`icon-${name}`} size={sizeIcon}></SIcon>
     </>
   );
 };
