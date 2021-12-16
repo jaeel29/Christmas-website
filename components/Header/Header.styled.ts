@@ -89,14 +89,14 @@ export const FTButton = styled.button`
   ${Button}
   border-radius: 50px;
   background-color: transparent;
-  box-shadow: inset 0 0 0 2.5px ${p => p.theme.colors.primaryDark2};
-  color: ${p => p.theme.colors.primaryDark2};
+  box-shadow: inset 0 0 0 2.5px ${p => p.theme.colors.primary};
+  color: ${p => p.theme.colors.primary};
   height: 45px;
   padding: 1.5rem 1.5rem;
   font-size: 1.5rem;
 
   &:hover {
     color: ${p => p.theme.colors.primaryLight};
-    background-color: ${p => p.theme.colors.primaryDark2};
+    background-color: ${p => p.theme.colors.primary};
   }
 `;

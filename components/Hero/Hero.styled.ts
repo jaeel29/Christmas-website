@@ -103,7 +103,7 @@ export const Right = styled.div`
     top: 50%;
     right: 50%;
     transform: translate(50%, -50%);
-    width: 100%;
+    width: 120%;
     border-radius: 10px;
     /* border: 3px solid blue; */
     z-index: 10;

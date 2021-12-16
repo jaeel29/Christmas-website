@@ -34,9 +34,9 @@ const HeroSection = () => {
 
               <Link href='/' passHref>
                 <SButton light>
-                  <h4>Learn more</h4>
+                  <h4>Book a drive</h4>
 
-                  <IconComp name={Icons.ArrowRight} sizeIcon={36}></IconComp>
+                  {/* <IconComp name={Icons.ArrowRight} sizeIcon={36}></IconComp> */}
                 </SButton>
               </Link>
             </Links>
@@ -59,7 +59,7 @@ const HeroSection = () => {
           <Right>
             <img
               className='hero-img'
-              src='/Images/Hero3.png'
+              src='/Images/Santa.png'
               alt='eating a meal'
             />
             <div></div>
