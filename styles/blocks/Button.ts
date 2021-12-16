@@ -25,7 +25,7 @@ export const Button = css<{ light?: boolean }>`
           }
         `
       : css`
-          background-color: ${p => p.theme.colors.primary};
+          background-color: ${p => p.theme.colors.primaryDark2};
           color: ${p => p.theme.colors.white};
 
           &:hover {

@@ -21,6 +21,7 @@ const navigaton = [
   },
   {
     title: 'Products',
+    icon: 'arrow-down',
     url: '/products',
   },
   {
@@ -32,24 +33,24 @@ const navigaton = [
     url: '/sale',
   },
   {
-    title: 'Furniture Pros',
-    url: '/pros',
+    title: 'Furniture',
+    url: '/furniture',
   },
 ];
 
 const socials = [
   {
-    title: 'youtube',
+    title: 'sm-facebook',
     size: '16',
-    url: 'https://www.youtube.com',
+    url: 'https://www.facebook.com',
   },
   {
-    title: 'twitter',
+    title: 'sm-twitter',
     size: '18',
     url: 'https://twitter.com',
   },
   {
-    title: 'instagram',
+    title: 'sm-instagram',
     size: '16',
     url: 'https://www.instagram.com',
   },
@@ -67,13 +68,14 @@ const Header = () => {
 
         <Wrapper>
           <Navigation>
-            <ul>
-              {navigaton.map((x, index) => (
-                <Link href={x.url} key={index}>
-                  <Navlink>{x.title}</Navlink>
-                </Link>
-              ))}
-            </ul>
+            {navigaton.map((x, index) => (
+              <Link passHref href={x.url} key={index}>
+                <Navlink>
+                  <h4>{x.title}</h4>
+                  <IconComp name={x.icon} sizeIcon={24} />
+                </Navlink>
+              </Link>
+            ))}
           </Navigation>
 
           <Details>

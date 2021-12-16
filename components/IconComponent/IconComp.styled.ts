@@ -12,6 +12,6 @@ export const SIcon = styled.i<{
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: ${p => (p.color ? p.theme.colors[p.color] : 'inherit')};
+  color: inherit;
   font-size: ${({ size }) => size || 14}px;
 `;

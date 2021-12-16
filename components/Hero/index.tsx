@@ -36,11 +36,7 @@ const HeroSection = () => {
                 <SButton light>
                   <h4>Learn more</h4>
 
-                  <IconComp
-                    name={Icons.ArrowDown}
-                    sizeIcon={36}
-                    color='red'
-                  ></IconComp>
+                  <IconComp name={Icons.ArrowRight} sizeIcon={36}></IconComp>
                 </SButton>
               </Link>
             </Links>
@@ -66,10 +62,10 @@ const HeroSection = () => {
               src='/Images/Hero3.png'
               alt='eating a meal'
             />
-          </Right>
-          <Third>
             <div></div>
-          </Third>
+          </Right>
+          {/* <Third>
+          </Third> */}
         </Hero>
       </SectionHero>
     </PageLayout>

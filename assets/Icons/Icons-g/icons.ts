@@ -1,41 +1,45 @@
 export type IconsId =
   | "arrow-down"
-  | "instagram"
-  | "mqas"
-  | "power"
-  | "prise"
+  | "arrow-right"
   | "search"
-  | "twitter"
-  | "youtube";
+  | "sm-facebook"
+  | "sm-instagram"
+  | "sm-twitter"
+  | "testing-mqas"
+  | "testing-power"
+  | "testing-prise";
 
 export type IconsKey =
   | "ArrowDown"
-  | "Instagram"
-  | "Mqas"
-  | "Power"
-  | "Prise"
+  | "ArrowRight"
   | "Search"
-  | "Twitter"
-  | "Youtube";
+  | "SmFacebook"
+  | "SmInstagram"
+  | "SmTwitter"
+  | "TestingMqas"
+  | "TestingPower"
+  | "TestingPrise";
 
 export enum Icons {
   ArrowDown = "arrow-down",
-  Instagram = "instagram",
-  Mqas = "mqas",
-  Power = "power",
-  Prise = "prise",
+  ArrowRight = "arrow-right",
   Search = "search",
-  Twitter = "twitter",
-  Youtube = "youtube",
+  SmFacebook = "sm-facebook",
+  SmInstagram = "sm-instagram",
+  SmTwitter = "sm-twitter",
+  TestingMqas = "testing-mqas",
+  TestingPower = "testing-power",
+  TestingPrise = "testing-prise",
 }
 
 export const ICONS_CODEPOINTS: { [key in Icons]: string } = {
   [Icons.ArrowDown]: "61697",
-  [Icons.Instagram]: "61698",
-  [Icons.Mqas]: "61699",
-  [Icons.Power]: "61700",
-  [Icons.Prise]: "61701",
-  [Icons.Search]: "61702",
-  [Icons.Twitter]: "61703",
-  [Icons.Youtube]: "61704",
+  [Icons.ArrowRight]: "61698",
+  [Icons.Search]: "61699",
+  [Icons.SmFacebook]: "61700",
+  [Icons.SmInstagram]: "61701",
+  [Icons.SmTwitter]: "61702",
+  [Icons.TestingMqas]: "61703",
+  [Icons.TestingPower]: "61704",
+  [Icons.TestingPrise]: "61705",
 };

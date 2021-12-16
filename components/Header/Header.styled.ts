@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { BorderDebugging } from '../../styles/blocks/BorderDebugging';
+import { BorderOrange } from '../../styles/blocks/BorderDebugging';
 import { Button } from '../../styles/blocks/Button';
 import { Container } from '../../styles/blocks/Container';
 
@@ -8,54 +8,43 @@ export const SHeader = styled.header`
   align-items: center;
   height: 8rem;
   background-color: ${p => p.theme.colors.primaryLight};
-  border-bottom: 3px solid ${p => p.theme.colors.primaryLight2};
+  border-bottom: 2px solid ${p => p.theme.colors.primaryLight2};
 `;
 
 export const SHeaderContainer = styled.div`
-  /* ${BorderDebugging} */
+  ${Container}
+  /* max-width: 1440px; */
   display: flex;
   align-items: center;
-  /* justify-content: space-between; */
   padding: 0 80px;
   font-size: 1.5rem;
-  ${Container}
 `;
 
 export const LogoContainer = styled.div`
-  /* ${BorderDebugging} */
   margin-right: ${p => p.theme.spacing.s48};
   cursor: pointer;
-
-  .logo {
-    /* width: 100%; */
-  }
 `;
 
 export const Wrapper = styled.div`
-  /* ${BorderDebugging} */
   display: flex;
   align-items: center;
   flex-grow: 1;
 `;
 
 export const Navigation = styled.nav`
-  /* ${BorderDebugging} */
+  margin-right: ${p => p.theme.spacing.s24};
 
-  margin-right: ${p => p.theme.spacing.s48};
-
-  ul {
-    display: flex;
-    align-items: center;
-  }
+  display: flex;
+  align-items: center;
 `;
 
 export const Navlink = styled.li`
-  /* ${BorderDebugging} */
   padding: 10px 8px;
   font-weight: 600;
   color: ${p => p.theme.colors.primaryDark2};
   font-size: 1.5rem;
-  display: block;
+  display: flex;
+  align-items: center;
   cursor: pointer;
 
   &:hover {
@@ -74,10 +63,8 @@ export const Details = styled.div`
 `;
 
 export const Socials = styled.div`
-  margin-right: ${p => p.theme.spacing.s48};
   display: flex;
   align-items: center;
-  /* justify-content: center; */
   margin: 0 auto;
 `;
 

@@ -1,8 +1,8 @@
 @font-face {
     font-family: "icons";
-    src: url("./icons.woff?7f6327286a279620e35209d5f54a6470") format("woff"),
-url("./icons.woff2?7f6327286a279620e35209d5f54a6470") format("woff2"),
-url("./icons.ttf?7f6327286a279620e35209d5f54a6470") format("truetype");
+    src: url("./icons.woff?502f571bd163d6fc04e367a07a85d61e") format("woff"),
+url("./icons.woff2?502f571bd163d6fc04e367a07a85d61e") format("woff2"),
+url("./icons.ttf?502f571bd163d6fc04e367a07a85d61e") format("truetype");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
@@ -19,24 +19,27 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 .icon-arrow-down:before {
     content: "\f101";
 }
-.icon-instagram:before {
+.icon-arrow-right:before {
     content: "\f102";
 }
-.icon-mqas:before {
+.icon-search:before {
     content: "\f103";
 }
-.icon-power:before {
+.icon-sm-facebook:before {
     content: "\f104";
 }
-.icon-prise:before {
+.icon-sm-instagram:before {
     content: "\f105";
 }
-.icon-search:before {
+.icon-sm-twitter:before {
     content: "\f106";
 }
-.icon-twitter:before {
+.icon-testing-mqas:before {
     content: "\f107";
 }
-.icon-youtube:before {
+.icon-testing-power:before {
     content: "\f108";
+}
+.icon-testing-prise:before {
+    content: "\f109";
 }

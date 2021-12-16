@@ -1,5 +1,9 @@
 import styled from 'styled-components';
-import { BorderDebugging } from '../../styles/blocks/BorderDebugging';
+import {
+  BorderBlue,
+  BorderOrange,
+  BorderRed,
+} from '../../styles/blocks/BorderDebugging';
 import { Button } from '../../styles/blocks/Button';
 import { Container } from '../../styles/blocks/Container';
 import { Description } from '../../styles/blocks/Description';
@@ -15,15 +19,14 @@ export const Hero = styled.div`
   max-width: 1440px;
   height: 50rem;
   display: grid;
-  grid-template-columns: 1.7fr repeat(2, minmax(min-content, 1fr));
+  grid-template-columns: 1fr minmax(min-content, 1fr);
   justify-content: space-between;
   align-items: center;
   column-gap: 24px;
 `;
 
 export const Left = styled.div`
-  /* ${BorderDebugging} */
-
+  /* ${BorderOrange} */
   h1 {
     ${Title}
     margin-bottom: ${p => p.theme.spacing.s32};
@@ -50,7 +53,6 @@ export const SButton = styled.a`
     margin-right: 1rem;
 
     h4 {
-      margin-right: 1rem;
       font-family: inherit;
     }
 
@@ -61,14 +63,12 @@ export const SButton = styled.a`
 `;
 
 export const Avatars = styled.div`
-  /* ${BorderDebugging} */
   margin-top: ${p => p.theme.spacing.s32};
   display: flex;
   align-items: center;
   gap: 1.6rem;
 
   .imgs {
-    /* ${BorderDebugging} */
     display: flex;
 
     img {
@@ -95,11 +95,8 @@ export const Avatars = styled.div`
 `;
 
 export const Right = styled.div`
-  /* ${BorderDebugging} */
+  /* ${BorderOrange} */
   position: relative;
-  grid-column: 2 / -1;
-  grid-row: 1 / 2;
-  z-index: 1;
 
   .hero-img {
     position: absolute;
@@ -109,16 +106,26 @@ export const Right = styled.div`
     width: 100%;
     border-radius: 10px;
     /* border: 3px solid blue; */
+    z-index: 10;
+  }
+
+  div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 50rem;
+    width: 50rem;
+    border-radius: 50%;
+    background-color: ${p => p.theme.colors.primaryLight};
   }
 `;
 
 export const Third = styled.div`
-  /* ${BorderDebugging} */
   height: 100%;
   grid-column: 2/-1;
   grid-row: 1/2;
   position: relative;
-  /* justify-self: center; */
 
   div {
     position: absolute;
@@ -131,20 +138,3 @@ export const Third = styled.div`
     background-color: ${p => p.theme.colors.primaryLight};
   }
 `;
-
-// export const SIcon = styled.i`
-//   font-family: icons !important;
-//   font-style: normal;
-//   font-weight: normal !important;
-//   font-variant: normal;
-//   text-transform: none;
-//   line-height: 1;
-//   -webkit-font-smoothing: antialiased;
-//   -moz-osx-font-smoothing: grayscale;
-//   color: white;
-//   font-size: 35px;
-
-//   /* &:before {
-//     content: ${p => p.content};
-//   } */
-// `;
