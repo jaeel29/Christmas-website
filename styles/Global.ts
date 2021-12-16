@@ -54,6 +54,11 @@ const GlobaleStyle = createGlobalStyle`${css`
     border: none;
   }
 
+  svg,
+  img {
+    vertical-align: middle;
+  }
+
   button {
     cursor: pointer;
     background: none;
@@ -107,6 +112,7 @@ const GlobaleStyle = createGlobalStyle`${css`
     font-family: 'Eux-Bold', sans-serif;
     font-weight: 400;
     line-height: 1;
+    min-width: 375px;
   }
 
   /* * {

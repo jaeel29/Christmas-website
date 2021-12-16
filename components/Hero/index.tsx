@@ -48,15 +48,15 @@ const HeroSection = () => {
             <Avatars>
               <div className='imgs'>
                 <img src='/Images/Avatars/avatar-1.png' alt='avatar 1' />
+                <img src='/Images/Avatars/avatar-6.png' alt='avatar 6' />
                 <img src='/Images/Avatars/avatar-2.png' alt='avatar 2' />
                 <img src='/Images/Avatars/avatar-3.png' alt='avatar 3' />
                 <img src='/Images/Avatars/avatar-4.png' alt='avatar 4' />
                 <img src='/Images/Avatars/avatar-5.png' alt='avatar 5' />
-                <img src='/Images/Avatars/avatar-6.png' alt='avatar 6' />
               </div>
 
               <p className='paragraphAvatars'>
-                Tailored to your personal tastes and nutritional needs.
+                <span>365 days</span> food subscription.
               </p>
             </Avatars>
           </Left>

@@ -1,6 +1,9 @@
 import styled, { css } from 'styled-components';
 
-export const SIcon = styled.i<{ size: number; color: string }>`
+export const SIcon = styled.i<{
+  size: number | undefined;
+  color: string | undefined;
+}>`
   font-family: icons !important;
   font-style: normal;
   font-weight: normal !important;

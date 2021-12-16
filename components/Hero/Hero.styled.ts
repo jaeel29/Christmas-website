@@ -75,6 +75,8 @@ export const Avatars = styled.div`
       width: 5rem;
       height: 5rem;
       margin-right: -1.5rem;
+      border: 4px solid ${p => p.theme.colors.white};
+      border-radius: 50%;
     }
 
     img:last-child {
@@ -84,6 +86,11 @@ export const Avatars = styled.div`
 
   .paragraphAvatars {
     ${Description}
+
+    span {
+      color: ${p => p.theme.colors.primary};
+      margin-right: 0.5rem;
+    }
   }
 `;
 

@@ -1,8 +1,8 @@
 @font-face {
     font-family: "icons";
-    src: url("./icons.woff?95d587916609f10e0b2daca4908c2f1c") format("woff"),
-url("./icons.woff2?95d587916609f10e0b2daca4908c2f1c") format("woff2"),
-url("./icons.ttf?95d587916609f10e0b2daca4908c2f1c") format("truetype");
+    src: url("./icons.woff?7f6327286a279620e35209d5f54a6470") format("woff"),
+url("./icons.woff2?7f6327286a279620e35209d5f54a6470") format("woff2"),
+url("./icons.ttf?7f6327286a279620e35209d5f54a6470") format("truetype");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
@@ -19,15 +19,24 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 .icon-arrow-down:before {
     content: "\f101";
 }
-.icon-mqas:before {
+.icon-instagram:before {
     content: "\f102";
 }
-.icon-power:before {
+.icon-mqas:before {
     content: "\f103";
 }
-.icon-prise:before {
+.icon-power:before {
     content: "\f104";
 }
-.icon-search:before {
+.icon-prise:before {
     content: "\f105";
+}
+.icon-search:before {
+    content: "\f106";
+}
+.icon-twitter:before {
+    content: "\f107";
+}
+.icon-youtube:before {
+    content: "\f108";
 }
