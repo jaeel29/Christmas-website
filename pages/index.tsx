@@ -1,7 +1,7 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import HeroSection from '../components/Hero';
-import HowSection from '../components/How/inde';
+import HowSection from '../components/How';
 import PageLayout from '../components/PageLayout';
 import { Title } from '../styles/Pages/Home.styled';
 

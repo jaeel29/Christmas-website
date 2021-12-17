@@ -1,10 +1,11 @@
+import Image from 'next/image';
 import Link from 'next/link';
-import { Icons } from '../../assets/Icons/Icons-g/icons';
-import IconComp from '../IconComponent';
-import PageLayout from '../PageLayout';
 import {
   Avatars,
-  Hero,
+  BG,
+  HeroContainer,
+  HeroImg,
+  Img,
   Left,
   Links,
   Right,
@@ -16,7 +17,7 @@ import {
 const HeroSection = () => {
   return (
     <SectionHero>
-      <Hero>
+      <HeroContainer>
         <Left>
           <h1>A healthy meal delivered to your door, every single day</h1>
 
@@ -42,12 +43,60 @@ const HeroSection = () => {
 
           <Avatars>
             <div className='imgs'>
-              <img src='/Images/Avatars/avatar-1.png' alt='avatar 1' />
+              <Img>
+                <Image
+                  src='/Images/Avatars/avatar-1.png'
+                  alt='avatar 1'
+                  width={100}
+                  height={100}
+                />
+              </Img>
+              <Img>
+                <Image
+                  src='/Images/Avatars/avatar-2.png'
+                  alt='avatar 2'
+                  width={100}
+                  height={100}
+                />
+              </Img>
+              <Img>
+                <Image
+                  src='/Images/Avatars/avatar-3.png'
+                  alt='avatar 3'
+                  width={100}
+                  height={100}
+                />
+              </Img>
+              <Img>
+                <Image
+                  src='/Images/Avatars/avatar-4.png'
+                  alt='avatar 4'
+                  width={100}
+                  height={100}
+                />
+              </Img>
+              <Img>
+                <Image
+                  src='/Images/Avatars/avatar-5.png'
+                  alt='avatar 5'
+                  width={100}
+                  height={100}
+                />
+              </Img>
+              <Img>
+                <Image
+                  src='/Images/Avatars/avatar-6.png'
+                  alt='avatar 6'
+                  width={100}
+                  height={100}
+                />
+              </Img>
+              {/* <img src='/Images/Avatars/avatar-1.png' alt='avatar 1' />
               <img src='/Images/Avatars/avatar-6.png' alt='avatar 6' />
               <img src='/Images/Avatars/avatar-2.png' alt='avatar 2' />
               <img src='/Images/Avatars/avatar-3.png' alt='avatar 3' />
               <img src='/Images/Avatars/avatar-4.png' alt='avatar 4' />
-              <img src='/Images/Avatars/avatar-5.png' alt='avatar 5' />
+              <img src='/Images/Avatars/avatar-5.png' alt='avatar 5' /> */}
             </div>
 
             <p className='paragraphAvatars'>
@@ -56,16 +105,24 @@ const HeroSection = () => {
           </Avatars>
         </Left>
         <Right>
-          <img
+          <HeroImg>
+            <Image
+              src='/Images/Santa.png'
+              alt='eating a meal'
+              width={800}
+              height={800}
+            />
+          </HeroImg>
+          {/* <img
             className='hero-img'
             src='/Images/Santa.png'
             alt='eating a meal'
-          />
-          <div></div>
+          /> */}
+          <BG></BG>
         </Right>
         {/* <Third>
           </Third> */}
-      </Hero>
+      </HeroContainer>
     </SectionHero>
   );
 };

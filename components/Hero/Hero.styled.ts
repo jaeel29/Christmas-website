@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import {
   BorderBlue,
+  BorderGreen,
   BorderOrange,
   BorderRed,
 } from '../../styles/blocks/BorderDebugging';
@@ -14,7 +15,7 @@ export const SectionHero = styled.section`
   /* background-color: ${p => p.theme.colors.primary}; */
 `;
 
-export const Hero = styled.div`
+export const HeroContainer = styled.div`
   ${Container}
   max-width: 1440px;
   height: 50rem;
@@ -71,17 +72,13 @@ export const Avatars = styled.div`
   .imgs {
     display: flex;
 
-    img {
+    /* img {
       width: 5rem;
       height: 5rem;
       margin-right: -1.5rem;
       border: 4px solid ${p => p.theme.colors.white};
       border-radius: 50%;
-    }
-
-    img:last-child {
-      margin-right: 0;
-    }
+    } */
   }
 
   .paragraphAvatars {
@@ -94,31 +91,44 @@ export const Avatars = styled.div`
   }
 `;
 
+export const Img = styled.div`
+  width: 5rem;
+  height: 5rem;
+  margin-right: -1.5rem;
+  border: 4px solid ${p => p.theme.colors.white};
+  border-radius: 50%;
+  z-index: 1;
+
+  &:last-child {
+    margin-right: 0;
+  }
+`;
+
 export const Right = styled.div`
   /* ${BorderOrange} */
   position: relative;
+`;
 
-  .hero-img {
-    position: absolute;
-    top: 50%;
-    right: 50%;
-    transform: translate(50%, -50%);
-    width: 120%;
-    border-radius: 10px;
-    /* border: 3px solid blue; */
-    z-index: 10;
-  }
+export const HeroImg = styled.div`
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  width: 120%;
+  border-radius: 10px;
+  z-index: 10;
+  /* ${BorderOrange} */
+`;
 
-  div {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 50rem;
-    width: 50rem;
-    border-radius: 50%;
-    background-color: ${p => p.theme.colors.primaryLight};
-  }
+export const BG = styled.div`
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 50rem;
+  width: 50rem;
+  border-radius: 50%;
+  background-color: ${p => p.theme.colors.primaryLight};
 `;
 
 export const Third = styled.div`

@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import { Icons } from '../../assets/Icons/Icons-g/icons';
 import IconComp from '../IconComponent';
@@ -62,7 +63,7 @@ const Header = () => {
       <SHeaderContainer>
         <LogoContainer>
           <Link href='/' passHref>
-            <img className='logo' src='/Images/Logo.svg' alt='Logo' />
+            <Image src='/Images/Logo.svg' alt='Logo' width={170} height={38} />
           </Link>
         </LogoContainer>
 

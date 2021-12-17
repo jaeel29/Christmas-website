@@ -13,7 +13,7 @@ export const SHeader = styled.header`
 
 export const SHeaderContainer = styled.div`
   ${Container}
-  /* max-width: 1440px; */
+  max-width: 1440px;
   display: flex;
   align-items: center;
   padding: 0 80px;
@@ -23,6 +23,7 @@ export const SHeaderContainer = styled.div`
 export const LogoContainer = styled.div`
   margin-right: ${p => p.theme.spacing.s48};
   cursor: pointer;
+  /* ${BorderOrange} */
 `;
 
 export const Wrapper = styled.div`
