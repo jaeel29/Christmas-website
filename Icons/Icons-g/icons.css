@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "icons";
+    src: url("./icons.woff?502f571bd163d6fc04e367a07a85d61e") format("woff"),
+url("./icons.woff2?502f571bd163d6fc04e367a07a85d61e") format("woff2"),
+url("./icons.ttf?502f571bd163d6fc04e367a07a85d61e") format("truetype");
+}
+
+i[class^="icon-"]:before, i[class*=" icon-"]:before {
+    font-family: icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-down:before {
+    content: "\f101";
+}
+.icon-arrow-right:before {
+    content: "\f102";
+}
+.icon-search:before {
+    content: "\f103";
+}
+.icon-sm-facebook:before {
+    content: "\f104";
+}
+.icon-sm-instagram:before {
+    content: "\f105";
+}
+.icon-sm-twitter:before {
+    content: "\f106";
+}
+.icon-testing-mqas:before {
+    content: "\f107";
+}
+.icon-testing-power:before {
+    content: "\f108";
+}
+.icon-testing-prise:before {
+    content: "\f109";
+}

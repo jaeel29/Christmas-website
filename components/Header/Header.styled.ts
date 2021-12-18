@@ -13,10 +13,8 @@ export const SHeader = styled.header`
 
 export const SHeaderContainer = styled.div`
   ${Container}
-  max-width: 1440px;
   display: flex;
   align-items: center;
-  padding: 0 80px;
   font-size: 1.5rem;
 `;
 

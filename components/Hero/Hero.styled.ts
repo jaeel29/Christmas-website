@@ -1,14 +1,9 @@
 import styled from 'styled-components';
-import {
-  BorderBlue,
-  BorderGreen,
-  BorderOrange,
-  BorderRed,
-} from '../../styles/blocks/BorderDebugging';
+import { BorderOrange } from '../../styles/blocks/BorderDebugging';
 import { Button } from '../../styles/blocks/Button';
 import { Container } from '../../styles/blocks/Container';
 import { Description } from '../../styles/blocks/Description';
-import { Title } from '../../styles/blocks/Title';
+import { Title } from '../../styles/blocks/Titles';
 
 export const SectionHero = styled.section`
   padding: 128px 0;
@@ -17,7 +12,6 @@ export const SectionHero = styled.section`
 
 export const HeroContainer = styled.div`
   ${Container}
-  max-width: 1440px;
   height: 50rem;
   display: grid;
   grid-template-columns: 1fr minmax(min-content, 1fr);
