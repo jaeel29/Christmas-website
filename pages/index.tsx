@@ -1,5 +1,6 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
+import FeaturedSection from '../components/Featured';
 import HeroSection from '../components/Hero';
 import HowSection from '../components/How';
 import PageLayout from '../components/PageLayout';
@@ -15,6 +16,7 @@ const Home: NextPage = () => {
 
       <PageLayout>
         <HeroSection />
+        <FeaturedSection />
         <HowSection />
       </PageLayout>
     </div>
