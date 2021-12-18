@@ -6,7 +6,7 @@ import { Description } from '../../styles/blocks/Description';
 import { Title } from '../../styles/blocks/Titles';
 
 export const SectionHero = styled.section`
-  padding: 128px 0;
+  padding: 96px 0;
   /* background-color: ${p => p.theme.colors.primary}; */
 `;
 

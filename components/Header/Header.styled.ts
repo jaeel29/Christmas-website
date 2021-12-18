@@ -13,6 +13,7 @@ export const SHeader = styled.header`
 
 export const SHeaderContainer = styled.div`
   ${Container}
+  padding: 0;
   display: flex;
   align-items: center;
   font-size: 1.5rem;

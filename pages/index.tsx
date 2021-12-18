@@ -1,10 +1,9 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import FeaturedSection from '../components/Featured';
+import ClientsSection from '../components/Clients';
 import HeroSection from '../components/Hero';
 import HowSection from '../components/How';
 import PageLayout from '../components/PageLayout';
-import { Title } from '../styles/Pages/Home.styled';
 
 const Home: NextPage = () => {
   return (
@@ -16,7 +15,7 @@ const Home: NextPage = () => {
 
       <PageLayout>
         <HeroSection />
-        <FeaturedSection />
+        <ClientsSection />
         <HowSection />
       </PageLayout>
     </div>
