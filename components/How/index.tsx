@@ -23,17 +23,17 @@ const HowSection = () => {
             <Img>
               <Image
                 src='/Images/Christmas/Christmas-Tree.png'
-                alt='chrismas'
+                alt='christmas tree'
                 width={500}
                 height={500}
               />
             </Img>
             <Text>
-              <p>01</p>
-              <h3 className='heading-secondary'>
+              <p className='step-number'>01</p>
+              <h3 className='heading-tertiary'>
                 Tell us what you like (and what not)
               </h3>
-              <p>
+              <p className='step-description'>
                 Never again waste time thinking about what to eat! Omnifood AI
                 will create a 100% personalized weekly meal plan just for you.
                 It makes sure you get all the nutrients and vitamins you need,
@@ -43,11 +43,11 @@ const HowSection = () => {
           </Card>
           <Card>
             <Text>
-              <p>02</p>
-              <h3 className='heading-secondary'>
+              <p className='step-number'>02</p>
+              <h3 className='heading-tertiary'>
                 Approve your weekly meal plan
               </h3>
-              <p>
+              <p className='step-description'>
                 Once per week, approve the meal plan generated for you by
                 Omnifood AI. You can change ingredients, swap entire meals, or
                 even add your own recipes.
@@ -56,7 +56,7 @@ const HowSection = () => {
             <Img>
               <Image
                 src='/Images/Christmas/Rudolph.png'
-                alt='chrismas'
+                alt='rudolph'
                 width={500}
                 height={500}
               />
@@ -66,17 +66,17 @@ const HowSection = () => {
             <Img>
               <Image
                 src='/Images/Christmas/Snowman.png'
-                alt='chrismas'
+                alt='snowman'
                 width={500}
                 height={500}
               />
             </Img>
             <Text>
-              <p>03</p>
-              <h3 className='heading-secondary'>
+              <p className='step-number'>03</p>
+              <h3 className='heading-tertiary'>
                 Receive meals at convenient time
               </h3>
-              <p>
+              <p className='step-description'>
                 Best chefs in town will cook your selected meal every day, and
                 we will deliver it to your door whenever works best for you. You
                 can change delivery schedule and address daily!

@@ -31,6 +31,7 @@ const GlobaleStyle = createGlobalStyle`${css`
   @font-face {
     font-family: 'icons';
     src: url('/assets/Icons/Icons-g/icons.ttf') format('truetype');
+    font-display: fallback;
   }
 
   // prettier-ignore
@@ -109,7 +110,7 @@ const GlobaleStyle = createGlobalStyle`${css`
   }
 
   body {
-    font-family: 'Eux-Bold', sans-serif;
+    font-family: 'E-M', sans-serif;
     font-weight: 400;
     line-height: 1;
     min-width: 375px;

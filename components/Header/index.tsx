@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { Icons } from '../../assets/Icons/Icons-g/icons';
 import IconComp from '../IconComponent';
 import {
   Details,
@@ -30,8 +29,8 @@ const navigaton = [
     url: '/about',
   },
   {
-    title: 'Sale',
-    url: '/sale',
+    title: 'Sales',
+    url: '/sales',
   },
   {
     title: 'Furniture',
