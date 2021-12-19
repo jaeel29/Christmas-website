@@ -3,6 +3,7 @@ import {
   BorderBlue,
   BorderGreen,
   BorderOrange,
+  BorderRed,
 } from '../../styles/blocks/BorderDebugging';
 import { Container } from '../../styles/blocks/Container';
 import { HeadingSecondary, Subheading } from '../../styles/blocks/Titles';
@@ -41,13 +42,31 @@ export const Body = styled.div`
   column-gap: 64px;
 
   .list {
-    ${BorderOrange}
+    /* ${BorderOrange} */
     border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 24px;
 
-    h1 {
+    h2 {
+      ${HeadingSecondary}
+      margin-bottom: 32px;
+      font-size: 32px;
+      letter-spacing: -0.5px;
+    }
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+
+      li {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+
+        span {
+          font-size: 1.8rem;
+        }
+      }
     }
   }
 `;
@@ -67,7 +86,6 @@ export const Card = styled.div`
 
   .card-image {
     background-color: ${p => p.theme.colors.primaryLight3};
-    margin-bottom: 2.4rem;
   }
 
   .card-body {
@@ -77,10 +95,11 @@ export const Card = styled.div`
       color: red;
       font-size: 1.6rem;
       font-family: 'E-B';
-      background-color: ${p => p.theme.colors.primaryLight};
-      color: ${p => p.theme.colors.primaryDark4};
-      border-radius: 20px;
-      padding: 12px 24px;
+      border-radius: 4px;
+      padding: 8px 16px;
+      background-color: #e9faf7;
+      color: #20c9ac;
+      text-transform: uppercase;
     }
 
     .title {
@@ -89,13 +108,16 @@ export const Card = styled.div`
       margin: 2.4rem 0;
     }
 
-    .list-item {
+    .list-items {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+
       .item {
-        margin-bottom: 1rem;
         display: flex;
         align-items: center;
 
-        p {
+        span {
           margin-left: 1rem;
           font-size: 1.4rem;
           font-family: 'E-M';
@@ -103,6 +125,39 @@ export const Card = styled.div`
       }
     }
   }
+  &:nth-child(2) {
+    .tag {
+      background-color: #fff2f0;
+      color: #ff6a55;
+    }
+  }
 `;
 
-export const List = styled.div``;
+export const Button = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 56px;
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 16px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+
+    span {
+      color: ${p => p.theme.colors.primaryDark4};
+      font-size: 1.8rem;
+      letter-spacing: -0.5px;
+    }
+
+    &:hover,
+    &:active {
+      background-color: ${p => p.theme.colors.primaryLight};
+    }
+  }
+`;

@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import IconComp from '../IconComponent';
 import {
   PContainer,
@@ -6,7 +7,7 @@ import {
   SectionProducts,
   Card,
   Body,
-  List,
+  Button,
 } from './Products.styled';
 
 const ProductsSection = () => {
@@ -15,7 +16,7 @@ const ProductsSection = () => {
       <PContainer>
         <Header>
           <span>Products</span>
-          <h2>Emifood AI chooses from 5,000+ recipes</h2>
+          <h2>ChrisMorocco chooses from 5,000+</h2>
         </Header>
 
         <Body>
@@ -31,18 +32,30 @@ const ProductsSection = () => {
             <div className='card-body'>
               <span className='tag'>Tag here</span>
               <p className='title'>Jaoanese Gyozas</p>
-              <ul className='list-item'>
+              <ul className='list-items'>
                 <li className='item'>
-                  <IconComp name='christmas-gift' sizeIcon={24} />
-                  <p>650 calories</p>
+                  <IconComp
+                    color='#58C27D'
+                    name='christmas-gift'
+                    sizeIcon={24}
+                  />
+                  <span>650 calories</span>
                 </li>
                 <li className='item'>
-                  <IconComp name='christmas-gift' sizeIcon={24} />
-                  <p>NutriScore &reg; 74</p>
+                  <IconComp
+                    color='#58C27D'
+                    name='christmas-gift'
+                    sizeIcon={24}
+                  />
+                  <span>NutriScore &reg; 74</span>
                 </li>
                 <li className='item'>
-                  <IconComp name='christmas-gift' sizeIcon={24} />
-                  <p>4.9 rating (537)</p>
+                  <IconComp
+                    color='#58C27D'
+                    name='christmas-gift'
+                    sizeIcon={24}
+                  />
+                  <span>4.9 rating (537)</span>
                 </li>
               </ul>
             </div>
@@ -59,27 +72,75 @@ const ProductsSection = () => {
             <div className='card-body'>
               <span className='tag'>Tag here</span>
               <p className='title'>Jaoanese Gyozas</p>
-              <ul className='list-item'>
+              <ul className='list-items'>
                 <li className='item'>
-                  <IconComp name='christmas-gift' sizeIcon={24} />
-                  <p>650 calories</p>
+                  <IconComp
+                    color='#58C27D'
+                    name='christmas-gift'
+                    sizeIcon={24}
+                  />
+                  <span>650 calories</span>
                 </li>
                 <li className='item'>
-                  <IconComp name='christmas-gift' sizeIcon={24} />
-                  <p>NutriScore &reg; 74</p>
+                  <IconComp
+                    color='#58C27D'
+                    name='christmas-gift'
+                    sizeIcon={24}
+                  />
+                  <span>NutriScore &reg; 74</span>
                 </li>
                 <li className='item'>
-                  <IconComp name='christmas-gift' sizeIcon={24} />
-                  <p>4.9 rating (537)</p>
+                  <IconComp
+                    color='#58C27D'
+                    name='christmas-gift'
+                    sizeIcon={24}
+                  />
+                  <span>4.9 rating (537)</span>
                 </li>
               </ul>
             </div>
           </Card>
-
           <div className='list'>
-            <h1>List</h1>
+            <h2>Works with aywahed:</h2>
+
+            <ul>
+              <li>
+                <IconComp color='#58C27D' name='check' sizeIcon={24} />
+                <span>Pro 2</span>
+              </li>
+              <li>
+                <IconComp color='#58C27D' name='check' sizeIcon={24} />
+                <span>Pro 3</span>
+              </li>
+              <li>
+                <IconComp color='#58C27D' name='check' sizeIcon={24} />
+                <span>Pro 4</span>
+              </li>
+              <li>
+                <IconComp color='#58C27D' name='check' sizeIcon={24} />
+                <span>Pro 5</span>
+              </li>
+              <li>
+                <IconComp color='#58C27D' name='check' sizeIcon={24} />
+                <span>Pro 6</span>
+              </li>
+              <li>
+                <IconComp color='#58C27D' name='check' sizeIcon={24} />
+                <span>Pro 7</span>
+              </li>
+            </ul>
           </div>
         </Body>
+        <Button>
+          <div>
+            <Link href='/' passHref>
+              <>
+                <span>See all offers</span>
+                <IconComp color='#58C27D' name='arrow-right' sizeIcon={24} />
+              </>
+            </Link>
+          </div>
+        </Button>
       </PContainer>
     </SectionProducts>
   );

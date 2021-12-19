@@ -6,15 +6,13 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "gIcons": "fantasticon Icons/Icons-o -o Icons/Icons-g -t woff woff2 ttf -g css html ts",
-    "gIcons:watch": "watch 'npm run gIcons' assets/icons/Icons-o"
+    "gIcons": "fantasticon Icons/Icons-o -o Icons/Icons-g -t woff woff2 ttf -g css html ts"
   },
   "dependencies": {
     "next": "12.0.7",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "styled-components": "^5.3.3",
-    "watch": "^1.0.2"
+    "styled-components": "^5.3.3"
   },
   "devDependencies": {
     "@svgr/webpack": "^6.1.2",

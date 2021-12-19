@@ -1,6 +1,7 @@
 export type IconsId =
   | "arrow-down"
   | "arrow-right"
+  | "check"
   | "christmas-gift"
   | "search"
   | "sm-facebook"
@@ -13,6 +14,7 @@ export type IconsId =
 export type IconsKey =
   | "ArrowDown"
   | "ArrowRight"
+  | "Check"
   | "ChristmasGift"
   | "Search"
   | "SmFacebook"
@@ -25,6 +27,7 @@ export type IconsKey =
 export enum Icons {
   ArrowDown = "arrow-down",
   ArrowRight = "arrow-right",
+  Check = "check",
   ChristmasGift = "christmas-gift",
   Search = "search",
   SmFacebook = "sm-facebook",
@@ -38,12 +41,13 @@ export enum Icons {
 export const ICONS_CODEPOINTS: { [key in Icons]: string } = {
   [Icons.ArrowDown]: "61697",
   [Icons.ArrowRight]: "61698",
-  [Icons.ChristmasGift]: "61699",
-  [Icons.Search]: "61700",
-  [Icons.SmFacebook]: "61701",
-  [Icons.SmInstagram]: "61702",
-  [Icons.SmTwitter]: "61703",
-  [Icons.TestingMqas]: "61704",
-  [Icons.TestingPower]: "61705",
-  [Icons.TestingPrise]: "61706",
+  [Icons.Check]: "61699",
+  [Icons.ChristmasGift]: "61700",
+  [Icons.Search]: "61701",
+  [Icons.SmFacebook]: "61702",
+  [Icons.SmInstagram]: "61703",
+  [Icons.SmTwitter]: "61704",
+  [Icons.TestingMqas]: "61705",
+  [Icons.TestingPower]: "61706",
+  [Icons.TestingPrise]: "61707",
 };
