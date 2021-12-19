@@ -12,3 +12,15 @@ export const TContainer = styled.div`
   height: 300px;
   ${BorderBlue}
 `;
+
+export const Body = styled.div`
+  ${BorderBlue}
+`;
+
+export const Testimonials = styled.div`
+  ${BorderBlue}
+`;
+
+export const Gallery = styled.div`
+  ${BorderBlue}
+`;

@@ -1,10 +1,23 @@
-import { SectionTestimonial, TContainer } from './Testimonial.styled';
+import {
+  Body,
+  Gallery,
+  SectionTestimonial,
+  TContainer,
+  Testimonials,
+} from './Testimonial.styled';
 
 const TestimonialSection = () => {
   return (
     <SectionTestimonial>
       <TContainer>
-        <h1>Testimonial</h1>
+        <Body>
+          <Testimonials>
+            <h1>Testimonials</h1>
+          </Testimonials>
+          <Gallery>
+            <h1>Gallery</h1>
+          </Gallery>
+        </Body>
       </TContainer>
     </SectionTestimonial>
   );
