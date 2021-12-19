@@ -6,7 +6,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "gIcons": "fantasticon assets/icons/Icons-o -o assets/icons/Icons-g -t woff woff2 ttf -g css html ts",
+    "gIcons": "fantasticon Icons/Icons-o -o Icons/Icons-g -t woff woff2 ttf -g css html ts",
     "gIcons:watch": "watch 'npm run gIcons' assets/icons/Icons-o"
   },
   "dependencies": {

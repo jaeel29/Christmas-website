@@ -6,7 +6,7 @@ const IconComp: FC<{
   sizeIcon?: number | undefined;
   color?: string | undefined;
 }> = ({ name, sizeIcon, color }) => {
-  console.log(`icons-${name}`);
+  // console.log(`icons-${name}`);
 
   return (
     <>
