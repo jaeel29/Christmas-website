@@ -15,7 +15,6 @@ export const SectionProducts = styled.section`
 
 export const PContainer = styled.div`
   ${Container}
-  height: 300px;
 `;
 
 export const Header = styled.div`

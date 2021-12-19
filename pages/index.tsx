@@ -5,6 +5,7 @@ import HeroSection from '../components/Hero';
 import HowSection from '../components/How';
 import PageLayout from '../components/PageLayout';
 import ProductsSection from '../components/Products';
+import TestimonialSection from '../components/Testimonial';
 
 const Home: NextPage = () => {
   return (
@@ -19,6 +20,7 @@ const Home: NextPage = () => {
         <ClientsSection />
         <HowSection />
         <ProductsSection />
+        <TestimonialSection />
       </PageLayout>
     </div>
   );
