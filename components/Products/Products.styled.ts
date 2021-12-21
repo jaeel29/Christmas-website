@@ -1,12 +1,10 @@
 import styled from 'styled-components';
 import {
-  BorderBlue,
-  BorderGreen,
   BorderOrange,
-  BorderRed,
-} from '../../styles/blocks/BorderDebugging';
-import { Container } from '../../styles/blocks/Container';
-import { HeadingSecondary, Subheading } from '../../styles/blocks/Titles';
+  Container,
+  HeadingSecondary,
+  Subheading,
+} from 'styles/blocks';
 
 export const SectionProducts = styled.section`
   padding: 96px 0;

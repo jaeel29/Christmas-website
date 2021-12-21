@@ -19,9 +19,11 @@ const HeroSection = () => {
     <SectionHero>
       <HeroContainer>
         <Left>
-          <h1>A healthy meal delivered to your door, every single day</h1>
+          <h1 className='hero_title'>
+            A healthy meal delivered to your door, every single day
+          </h1>
 
-          <p>
+          <p className='hero_paragraph'>
             The smart 365-days-per-year food subscription that will make you eat
             healthy again. Tailored to your personal tastes and nutritional
             needs.
@@ -99,7 +101,7 @@ const HeroSection = () => {
         <Right>
           <HeroImg>
             <Image
-              src='/Images/Santa.png'
+              src='/Images/Santa with Tree.png'
               alt='eating a meal'
               width={800}
               height={800}

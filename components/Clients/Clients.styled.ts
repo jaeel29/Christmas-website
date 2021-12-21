@@ -3,8 +3,8 @@ import {
   BorderBlue,
   BorderGreen,
   BorderOrange,
-} from '../../styles/blocks/BorderDebugging';
-import { Container } from '../../styles/blocks/Container';
+  Container,
+} from 'styles/blocks';
 
 export const SectionFeatured = styled.section`
   padding: 96px 0 0;

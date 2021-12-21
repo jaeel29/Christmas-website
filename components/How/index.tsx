@@ -22,7 +22,7 @@ const HowSection = () => {
           <Card>
             <Img>
               <Image
-                src='/Images/Christmas/Christmas-Tree.png'
+                src='/Images/Christmas/Penguin.png'
                 alt='christmas tree'
                 width={500}
                 height={500}

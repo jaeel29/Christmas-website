@@ -4,8 +4,8 @@ export const Title = css`
   font-size: ${p => p.theme.fontSizes.fs56};
   font-family: 'E-B', sans-serif;
   color: ${p => p.theme.colors.primaryDark4};
-
   letter-spacing: -0.8px;
+  line-height: 1.1;
 `;
 
 export const HeadingSecondary = css`

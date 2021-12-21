@@ -1,13 +1,12 @@
 import styled from 'styled-components';
-import { BorderBlue, BorderOrange } from '../../styles/blocks/BorderDebugging';
-import { Container } from '../../styles/blocks/Container';
-import { GridTwoColumns } from '../../styles/blocks/Grid';
 import {
+  BorderOrange,
+  Container,
   HeadingSecondary,
   HeadingTertiary,
   NumberText,
   Subheading,
-} from '../../styles/blocks/Titles';
+} from 'styles/blocks';
 
 export const SectionHow = styled.section`
   padding: 96px 0;
@@ -38,7 +37,9 @@ export const Body = styled.div`
 `;
 
 export const Card = styled.div`
-  ${GridTwoColumns}
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 24px;
   align-items: center;
   margin: 20px 0;
   padding: 40px;
@@ -68,6 +69,12 @@ export const Text = styled.div`
     font-size: 1.6rem;
     line-height: 1.6;
     color: ${p => p.theme.colors.primaryDark2};
+  }
+
+  &:nth-child(1) {
+    /* ${BorderOrange} */
+
+    margin: 0 0 0 64px;
   }
 `;
 

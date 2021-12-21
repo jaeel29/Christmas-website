@@ -31,14 +31,14 @@ export const HeroContainer = styled.div`
 
 export const Left = styled.div`
   /* ${BorderOrange} */
-  h1 {
+  .hero_title {
     ${Title}
-    margin-bottom: ${p => p.theme.spacing.s32};
+    margin-bottom: 40px;
   }
 
-  & > p {
+  .hero_paragraph {
     ${Description}
-    margin-bottom: ${p => p.theme.spacing.s32};
+    margin-bottom: 40px;
   }
 `;
 
@@ -74,18 +74,11 @@ export const Avatars = styled.div`
 
   .imgs {
     display: flex;
-
-    /* img {
-      width: 5rem;
-      height: 5rem;
-      margin-right: -1.5rem;
-      border: 4px solid ${p => p.theme.colors.white};
-      border-radius: 50%;
-    } */
   }
 
   .paragraphAvatars {
     ${Description}
+    color: ${p => p.theme.colors.primaryDark2};
 
     span {
       color: ${p => p.theme.colors.primary};
