@@ -62,7 +62,14 @@ const Header = () => {
       <SHeaderContainer>
         <LogoContainer>
           <Link href='/' passHref>
-            <Image src='/Images/Logo.svg' alt='Logo' width={170} height={38} />
+            <>
+              <Image
+                src='/Images/Logo.svg'
+                alt='Logo'
+                width={170}
+                height={38}
+              />
+            </>
           </Link>
         </LogoContainer>
 

@@ -1,13 +1,22 @@
 import styled from 'styled-components';
-import { BorderOrange } from '../../styles/blocks/BorderDebugging';
-import { Button } from '../../styles/blocks/Button';
-import { Container } from '../../styles/blocks/Container';
-import { Description } from '../../styles/blocks/Description';
-import { Title } from '../../styles/blocks/Titles';
+import {
+  BorderOrange,
+  Button,
+  Container,
+  Description,
+  Title,
+} from 'styles/blocks';
+
+// import {
+//   BorderOrange,
+//   Button,
+//   Container,
+//   Description,
+//   Title,
+// } from '../../styles/blocks';
 
 export const SectionHero = styled.section`
   padding: 96px 0;
-  /* background-color: ${p => p.theme.colors.primary}; */
 `;
 
 export const HeroContainer = styled.div`

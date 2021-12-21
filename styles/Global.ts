@@ -30,7 +30,7 @@ const GlobaleStyle = createGlobalStyle`${css`
 
   @font-face {
     font-family: 'icons';
-    src: url('/assets/Icons/Icons-g/icons.ttf') format('truetype');
+    src: url("/Icons/Icons-g/icons.woff") format("woff"),
     font-display: fallback;
   }
 

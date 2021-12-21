@@ -35,8 +35,6 @@ const HeroSection = () => {
             <Link href='/' passHref>
               <SButton light>
                 <h4>Happy christmas</h4>
-
-                {/* <IconComp name={Icons.ArrowRight} sizeIcon={36}></IconComp> */}
               </SButton>
             </Link>
           </Links>
