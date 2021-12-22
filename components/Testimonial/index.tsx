@@ -38,10 +38,10 @@ const testimonials = [
 ];
 
 const images = [
-  { img: '/Images/Gallery/gallery-10.jpg' },
-  { img: '/Images/Gallery/gallery-2.jpg' },
-  { img: '/Images/Gallery/gallery-3.jpg' },
-  { img: '/Images/Gallery/gallery-4.jpg' },
+  { img: '/Images/Gallery/gallery-1.jpeg' },
+  { img: '/Images/Gallery/gallery-4.jpeg' },
+  { img: '/Images/Gallery/gallery-3.jpeg' },
+  { img: '/Images/Gallery/gallery-2.jpeg' },
 ];
 
 const TestimonialSection = () => {
@@ -71,8 +71,8 @@ const TestimonialSection = () => {
             {images.map((x, index) => (
               <figure key={index} className='image'>
                 {/* <Image src={x.img} alt='gallery 1' layout='fill' /> */}
-                <img src={x.img} alt={x.img} />
-                {/* <Image src={x.img} alt={x.img} layout='fill' /> */}
+                {/* <img src={x.img} alt={x.img} /> */}
+                <Image src={x.img} alt={x.img} layout='fill' />
               </figure>
             ))}
           </Gallery>

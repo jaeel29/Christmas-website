@@ -77,6 +77,7 @@ export const Gallery = styled.div`
   .image {
     border-radius: 10px;
     overflow: hidden;
+    position: relative;
 
     img {
       width: 100%;
