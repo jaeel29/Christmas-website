@@ -1,3 +1,4 @@
+import FeaturesSection from 'components/Features';
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import ClientsSection from '../components/Clients';
@@ -21,6 +22,7 @@ const Home: NextPage = () => {
         <HowSection />
         <ProductsSection />
         <TestimonialSection />
+        <FeaturesSection />
       </PageLayout>
     </div>
   );

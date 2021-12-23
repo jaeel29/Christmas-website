@@ -70,14 +70,11 @@ const TestimonialSection = () => {
           <Gallery>
             {images.map((x, index) => (
               <figure key={index} className='image'>
-                {/* <Image src={x.img} alt='gallery 1' layout='fill' /> */}
                 {/* <img src={x.img} alt={x.img} /> */}
                 <Image src={x.img} alt={x.img} layout='fill' />
               </figure>
             ))}
           </Gallery>
-
-          <h1>You need to delete this</h1>
         </Body>
       </TContainer>
     </SectionTestimonial>
