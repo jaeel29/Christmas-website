@@ -71,7 +71,7 @@ const TestimonialSection = () => {
             {images.map((x, index) => (
               <figure key={index} className='image'>
                 {/* <img src={x.img} alt={x.img} /> */}
-                <Image src={x.img} alt={x.img} layout='fill' />
+                <Image priority src={x.img} alt={x.img} layout='fill' />
               </figure>
             ))}
           </Gallery>

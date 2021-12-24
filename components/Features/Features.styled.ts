@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import { BorderBlue, Container } from 'styles/blocks';
 
 export const SectionFeatures = styled.section`
-  height: 500px;
   padding: 96px 0;
 `;
 

@@ -18,11 +18,11 @@ const Home: NextPage = () => {
 
       <PageLayout>
         <HeroSection />
-        <ClientsSection />
+        <FeaturesSection />
         <HowSection />
+        <ClientsSection />
         <ProductsSection />
         <TestimonialSection />
-        <FeaturesSection />
       </PageLayout>
     </div>
   );

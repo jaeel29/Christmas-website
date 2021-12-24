@@ -7,7 +7,7 @@ import {
 } from 'styles/blocks';
 
 export const SectionFeatured = styled.section`
-  padding: 96px 0 0;
+  padding: 0 0 96px 0 0;
 `;
 
 export const FeaturedContainer = styled.div`
