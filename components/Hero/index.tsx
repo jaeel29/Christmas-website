@@ -20,13 +20,13 @@ const HeroSection = () => {
       <HeroContainer>
         <Left>
           <h1 className='hero_title'>
-            A healthy meal delivered to your door, every single day
+            Hello, Im Mr Santa. Merry Christmas to all of you
           </h1>
 
           <p className='hero_paragraph'>
-            The smart 365-days-per-year food subscription that will make you eat
-            healthy again. Tailored to your personal tastes and nutritional
-            needs.
+            Santa Cruz Bicycles is a manufacturer of high end mountain bikes
+            based in Santa Cruz, California. They sponsor the Santa Cruz
+            Syndicate
           </p>
 
           <Links>
@@ -94,7 +94,7 @@ const HeroSection = () => {
             </div>
 
             <p className='paragraphAvatars'>
-              <span>365 days</span> food subscription.
+              <span>01 January</span>
             </p>
           </Avatars>
         </Left>
