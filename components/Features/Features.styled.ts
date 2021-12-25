@@ -24,6 +24,7 @@ export const Feature = styled.div`
     width: 60px;
     height: 60px;
     background-color: ${p => p.theme.colors.primaryLight3};
+    color: ${p => p.theme.colors.primary};
     display: flex;
     justify-content: center;
     align-items: center;

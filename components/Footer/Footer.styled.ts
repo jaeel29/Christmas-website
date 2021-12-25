@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { BorderBlue, BorderOrange, Container } from 'styles/blocks';
+import { BorderBlue, BorderOrange, Button, Container } from 'styles/blocks';
 
 export const SFooter = styled.footer`
   padding: 72px 0;
@@ -34,5 +34,21 @@ export const FooterBody = styled.div`
         color: ${p => p.theme.colors.primary};
       }
     }
+  }
+`;
+
+export const FTButton = styled.button`
+  ${Button}
+  border-radius: 50px;
+  background-color: transparent;
+  box-shadow: inset 0 0 0 2.5px ${p => p.theme.colors.primary};
+  color: ${p => p.theme.colors.primary};
+  height: 45px;
+  padding: 1.5rem 1.5rem;
+  font-size: 1.5rem;
+
+  &:hover {
+    color: ${p => p.theme.colors.primaryLight};
+    background-color: ${p => p.theme.colors.primary};
   }
 `;

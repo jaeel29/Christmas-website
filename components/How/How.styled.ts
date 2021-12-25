@@ -86,6 +86,14 @@ export const Img = styled.div`
   position: relative;
   z-index: 1;
 
+  img {
+    transition: all 0.2s ease-out;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
   &::before,
   &::after {
     position: absolute;

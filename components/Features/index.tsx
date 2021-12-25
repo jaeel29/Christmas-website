@@ -6,25 +6,25 @@ const features = [
     title: 'Never cook again!',
     description:
       'Our subscriptions cover 365 days per year, even including major holidays.',
-    icon: 'arrow-down',
+    icon: 'christmas-christmas-1',
   },
   {
     title: 'Local and organic',
     description:
       'Our subscriptions cover 365 days per year, even including major holidays.',
-    icon: 'arrow-down',
+    icon: 'christmas-christmas-2',
   },
   {
     title: 'No waste',
     description:
       'Our subscriptions cover 365 days per year, even including major holidays.',
-    icon: 'arrow-down',
+    icon: 'christmas-christmas-3',
   },
   {
     title: 'Pause anytime',
     description:
       'Our subscriptions cover 365 days per year, even including major holidays.',
-    icon: 'arrow-down',
+    icon: 'christmas-christmas-4',
   },
 ];
 

@@ -100,12 +100,15 @@ const HeroSection = () => {
         </Left>
         <Right>
           <HeroImg>
-            <Image
-              src='/Images/Santa with Tree.png'
-              alt='eating a meal'
-              width={800}
-              height={800}
-            />
+            <div className='image'>
+              <Image
+                priority
+                src='/Images/Christmas/Santa Poses.png'
+                alt='eating a meal'
+                width={800}
+                height={800}
+              />
+            </div>
           </HeroImg>
 
           <BG></BG>

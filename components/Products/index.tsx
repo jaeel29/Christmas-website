@@ -23,7 +23,7 @@ const ProductsSection = () => {
           <Card>
             <div className='card-image'>
               <Image
-                src='/Cards/card-image.png'
+                src='/Images/card-image.png'
                 alt='Rudolph'
                 width={1000}
                 height={640}
@@ -63,7 +63,7 @@ const ProductsSection = () => {
           <Card>
             <div className='card-image'>
               <Image
-                src='/Cards/card-image.png'
+                src='/Images/card-image.png'
                 alt='Rudolph'
                 width={1000}
                 height={640}

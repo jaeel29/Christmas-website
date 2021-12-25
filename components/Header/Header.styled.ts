@@ -22,7 +22,9 @@ export const SHeaderContainer = styled.div`
 export const LogoContainer = styled.div`
   margin-right: ${p => p.theme.spacing.s48};
   cursor: pointer;
-  /* ${BorderOrange} */
+
+  .logo {
+  }
 `;
 
 export const Wrapper = styled.div`

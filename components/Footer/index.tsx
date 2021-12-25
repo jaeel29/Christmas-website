@@ -1,7 +1,12 @@
 import { FBody } from 'components/Features/Features.styled';
 import Image from 'next/image';
 import Link from 'next/link';
-import { FooterBody, FooterContainer, SFooter } from './Footer.styled';
+import {
+  FooterBody,
+  FooterContainer,
+  FTButton,
+  SFooter,
+} from './Footer.styled';
 
 const items = [
   {
@@ -33,12 +38,7 @@ const Footer = () => {
         <FooterBody>
           <Link href='/' passHref>
             <div className='logo'>
-              <Image
-                src='/Images/Logo.svg'
-                alt='Logo'
-                width={170}
-                height={38}
-              />
+              <Image src='/Images/Logo.svg' alt='Logo' width={76} height={68} />
             </div>
           </Link>
           <div className='menu'>
@@ -49,7 +49,9 @@ const Footer = () => {
             ))}
           </div>
           <div className='form'>
-            <h1>Form here</h1>
+            <Link href='/' passHref>
+              <FTButton>Get free trial</FTButton>
+            </Link>
           </div>
         </FooterBody>
       </FooterContainer>

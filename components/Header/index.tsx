@@ -62,14 +62,9 @@ const Header = () => {
       <SHeaderContainer>
         <LogoContainer>
           <Link href='/' passHref>
-            <>
-              <Image
-                src='/Images/Logo.svg'
-                alt='Logo'
-                width={170}
-                height={38}
-              />
-            </>
+            <div className='logo'>
+              <Image src='/Images/Logo.svg' alt='Logo' width={76} height={68} />
+            </div>
           </Link>
         </LogoContainer>
 

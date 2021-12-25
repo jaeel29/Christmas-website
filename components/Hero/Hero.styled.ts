@@ -114,6 +114,16 @@ export const HeroImg = styled.div`
   border-radius: 10px;
   z-index: 10;
   /* ${BorderOrange} */
+
+  .image {
+    img {
+      transition: all 0.2s ease-out;
+    }
+
+    &:hover img {
+      transform: scale(1.1);
+    }
+  }
 `;
 
 export const BG = styled.div`

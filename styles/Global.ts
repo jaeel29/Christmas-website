@@ -6,7 +6,7 @@ const GlobaleStyle = createGlobalStyle`${css`
     src: url('/fonts/EudoxusSans-Light.woff') format('woff');
     font-style: normal;
     font-weight: lighter;
-    font-display: fallback;
+    font-display: swap;
     /* <- this can be added to each @font-face definition */
   }
 
@@ -15,7 +15,7 @@ const GlobaleStyle = createGlobalStyle`${css`
     src: url('/fonts/EudoxusSans-Medium.woff') format('woff');
     font-style: normal;
     font-weight: normal;
-    font-display: fallback;
+    font-display: swap;
     /* <- this can be added to each @font-face definition */
   }
 
@@ -24,14 +24,15 @@ const GlobaleStyle = createGlobalStyle`${css`
     src: url('/fonts/EudoxusSans-Bold.woff') format('woff');
     font-style: normal;
     font-weight: bold;
-    font-display: fallback;
+    font-display: swap;
     /* <- this can be added to each @font-face definition */
   }
 
   @font-face {
     font-family: 'icons';
-    src: url("/Icons/Icons-g/icons.woff") format("woff"),
-    font-display: fallback;
+    src: url('/Icons/Icons-g/icons.woff') format('woff'),
+      url('/Icons/Icons-g/icons.woff2') format('woff2'),
+      url('/Icons/Icons-g/icons.ttf') format('truetype');
   }
 
   // prettier-ignore

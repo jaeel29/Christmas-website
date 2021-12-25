@@ -38,10 +38,10 @@ const testimonials = [
 ];
 
 const images = [
-  { img: '/Images/Gallery/gallery-1.jpeg' },
-  { img: '/Images/Gallery/gallery-4.jpeg' },
-  { img: '/Images/Gallery/gallery-3.jpeg' },
-  { img: '/Images/Gallery/gallery-2.jpeg' },
+  { img: '/Images/Gallery/gallery-1.png' },
+  { img: '/Images/Gallery/gallery-4.png' },
+  { img: '/Images/Gallery/gallery-3.png' },
+  { img: '/Images/Gallery/gallery-2.png' },
 ];
 
 const TestimonialSection = () => {

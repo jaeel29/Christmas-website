@@ -1,8 +1,8 @@
 @font-face {
     font-family: "icons";
-    src: url("./icons.woff?69de21352a428297817bc2a5552a386c") format("woff"),
-url("./icons.woff2?69de21352a428297817bc2a5552a386c") format("woff2"),
-url("./icons.ttf?69de21352a428297817bc2a5552a386c") format("truetype");
+    src: url("./icons.woff?49683c0ce0d49c0903048ceccd6f1af2") format("woff"),
+url("./icons.woff2?49683c0ce0d49c0903048ceccd6f1af2") format("woff2"),
+url("./icons.ttf?49683c0ce0d49c0903048ceccd6f1af2") format("truetype");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
@@ -25,27 +25,39 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 .icon-check:before {
     content: "\f103";
 }
-.icon-christmas-gift:before {
+.icon-christmas-christmas-1:before {
     content: "\f104";
 }
-.icon-search:before {
+.icon-christmas-christmas-2:before {
     content: "\f105";
 }
-.icon-sm-facebook:before {
+.icon-christmas-christmas-3:before {
     content: "\f106";
 }
-.icon-sm-instagram:before {
+.icon-christmas-christmas-4:before {
     content: "\f107";
 }
-.icon-sm-twitter:before {
+.icon-christmas-gift:before {
     content: "\f108";
 }
-.icon-testing-mqas:before {
+.icon-search:before {
     content: "\f109";
 }
-.icon-testing-power:before {
+.icon-sm-facebook:before {
     content: "\f10a";
 }
-.icon-testing-prise:before {
+.icon-sm-instagram:before {
     content: "\f10b";
+}
+.icon-sm-twitter:before {
+    content: "\f10c";
+}
+.icon-testing-mqas:before {
+    content: "\f10d";
+}
+.icon-testing-power:before {
+    content: "\f10e";
+}
+.icon-testing-prise:before {
+    content: "\f10f";
 }
