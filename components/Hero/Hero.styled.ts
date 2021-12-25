@@ -110,7 +110,7 @@ export const HeroImg = styled.div`
   top: 50%;
   right: 50%;
   transform: translate(50%, -50%);
-  width: 120%;
+  width: 110%;
   border-radius: 10px;
   z-index: 10;
   /* ${BorderOrange} */

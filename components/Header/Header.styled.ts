@@ -7,8 +7,8 @@ export const SHeader = styled.header`
   display: flex;
   align-items: center;
   height: 8rem;
-  background-color: ${p => p.theme.colors.primaryLight};
-  border-bottom: 2px solid ${p => p.theme.colors.primaryLight2};
+  background-color: ${p => p.theme.colors.white};
+  border-bottom: 2px solid ${p => p.theme.colors.primaryLight3};
 `;
 
 export const SHeaderContainer = styled.div`

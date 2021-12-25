@@ -1,0 +1,12 @@
+Hello Folks,
+It's been a while i didn't share anything about my work, i was and still working on a huge project coming soon, and in this project im workign directly with developers, especially front-ends (Mobile & Web), and am already start learnign front-end dev, in the process of building this project, i learned a lot about how to work with fron0end developers and not just desiging anything, i learned how to deliver the assets, how to help them to inhance their workflow, and i learned a lot about front-end also.
+
+I think it's a long introduction, so i want to annonce that i create my first website just for practicing using these technologies =>
+  - Next JS
+  - Typescript
+  - Styled Components
+  - Icons => Generated Fonts Icons & SVGs
+  - Figma for choosing assets (icons & images...)
+
+and before i create this website just with inspiration, i didn't design the website on any UI tool.
+im waiting for your feedback

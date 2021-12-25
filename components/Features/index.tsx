@@ -3,25 +3,25 @@ import { FBody, FContainer, Feature, SectionFeatures } from './Features.styled';
 
 const features = [
   {
-    title: 'Never cook again!',
+    title: 'Asset 1',
     description:
       'Our subscriptions cover 365 days per year, even including major holidays.',
     icon: 'christmas-christmas-1',
   },
   {
-    title: 'Local and organic',
+    title: 'Asset 2',
     description:
       'Our subscriptions cover 365 days per year, even including major holidays.',
     icon: 'christmas-christmas-2',
   },
   {
-    title: 'No waste',
+    title: 'Asset 3',
     description:
       'Our subscriptions cover 365 days per year, even including major holidays.',
     icon: 'christmas-christmas-3',
   },
   {
-    title: 'Pause anytime',
+    title: 'Asset 4',
     description:
       'Our subscriptions cover 365 days per year, even including major holidays.',
     icon: 'christmas-christmas-4',
