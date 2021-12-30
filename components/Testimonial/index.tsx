@@ -13,25 +13,25 @@ import {
 const testimonials = [
   {
     quote:
-      ' Inexpensive, healthy and great-tasting meals, without even having to order manually! It feels truly magical.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias voluptas at laudantium beatae ducimus facilis assumenda veritatis.',
     img: '/Images/Avatars/avatar-1.png',
     name: 'Ben Hadley',
   },
   {
     quote:
-      ' Inexpensive, healthy and great-tasting meals, without even having to order manually! It feels truly magical.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias voluptas at laudantium beatae ducimus facilis assumenda veritatis.',
     img: '/Images/Avatars/avatar-5.png',
     name: 'Steve Miller',
   },
   {
     quote:
-      ' Inexpensive, healthy and great-tasting meals, without even having to order manually! It feels truly magical.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias voluptas at laudantium beatae ducimus facilis assumenda veritatis.',
     img: '/Images/Avatars/avatar-3.png',
     name: 'Hannah Smith',
   },
   {
     quote:
-      ' Inexpensive, healthy and great-tasting meals, without even having to order manually! It feels truly magical.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias voluptas at laudantium beatae ducimus facilis assumenda veritatis.',
     img: '/Images/Avatars/avatar-4.png',
     name: 'Dave Bryson',
   },
@@ -51,8 +51,8 @@ const TestimonialSection = () => {
         <Body>
           <Testimonials>
             <TestimonialHeader>
-              <span>How it works</span>
-              <h2>Your daily dose of health in 3 simple steps</h2>
+              <span>Testimonials</span>
+              <h2>Lorem, ipsum dolor sit amet consectetur elit.</h2>
             </TestimonialHeader>
 
             <Items>
@@ -67,6 +67,7 @@ const TestimonialSection = () => {
               ))}
             </Items>
           </Testimonials>
+
           <Gallery>
             {images.map((x, index) => (
               <figure key={index} className='image'>

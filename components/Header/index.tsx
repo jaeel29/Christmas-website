@@ -33,8 +33,8 @@ const navigaton = [
     url: '/sales',
   },
   {
-    title: 'Furniture',
-    url: '/furniture',
+    title: 'Things to do',
+    url: '/thingstodo',
   },
 ];
 

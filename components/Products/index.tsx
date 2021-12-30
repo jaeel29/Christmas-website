@@ -31,7 +31,7 @@ const ProductsSection = () => {
             </div>
             <div className='card-body'>
               <span className='tag'>Tag here</span>
-              <p className='title'>Jaoanese Gyozas</p>
+              <p className='title'>Lorem ipsum dolor</p>
               <ul className='list-items'>
                 <li className='item'>
                   <IconComp
@@ -39,7 +39,7 @@ const ProductsSection = () => {
                     name='christmas-gift'
                     sizeIcon={24}
                   />
-                  <span>650 calories</span>
+                  <span>Property 1</span>
                 </li>
                 <li className='item'>
                   <IconComp
@@ -47,7 +47,7 @@ const ProductsSection = () => {
                     name='christmas-gift'
                     sizeIcon={24}
                   />
-                  <span>NutriScore &reg; 74</span>
+                  <span>Property 2 &reg;</span>
                 </li>
                 <li className='item'>
                   <IconComp
@@ -71,7 +71,7 @@ const ProductsSection = () => {
             </div>
             <div className='card-body'>
               <span className='tag'>Tag here</span>
-              <p className='title'>Jaoanese Gyozas</p>
+              <p className='title'>Lorem ipsum dolor</p>
               <ul className='list-items'>
                 <li className='item'>
                   <IconComp
@@ -79,7 +79,7 @@ const ProductsSection = () => {
                     name='christmas-gift'
                     sizeIcon={24}
                   />
-                  <span>650 calories</span>
+                  <span>Property 1</span>
                 </li>
                 <li className='item'>
                   <IconComp
@@ -87,7 +87,7 @@ const ProductsSection = () => {
                     name='christmas-gift'
                     sizeIcon={24}
                   />
-                  <span>NutriScore &reg; 74</span>
+                  <span>Property 2 &reg;</span>
                 </li>
                 <li className='item'>
                   <IconComp

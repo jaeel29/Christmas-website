@@ -10,20 +10,20 @@ import {
 
 const items = [
   {
-    title: 'Stays',
+    title: 'Home',
     url: '/',
   },
   {
-    title: 'Flights',
-    url: '/flights',
+    title: 'Products',
+    url: '/products',
   },
   {
-    title: 'Support',
-    url: '/support',
+    title: 'About',
+    url: '/about',
   },
   {
-    title: 'Cars',
-    url: '/cars',
+    title: 'Sales',
+    url: '/sales',
   },
   {
     title: 'Things to do',
